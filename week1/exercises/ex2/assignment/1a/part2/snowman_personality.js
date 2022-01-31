@@ -23,9 +23,11 @@ function draw() {
      strokeWeight(50);
     //snowman fill
     fill("#f1f1f1");
-    stroke (stroke1);
+    stroke(stroke1); // there was an extra space here
+    // you would need to create your objects to be affected by stroke1 here
+  
     // arms
-    stroke(0);
+    stroke(0); // this changes the stroke from stroke1 back to black
     strokeWeight(10);
     line(600, 350, 700, 200);
     line(300, 200, 500, 500);
